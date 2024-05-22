@@ -1,0 +1,9 @@
+<div class="form-wrapper">
+  <form>
+    <p><b>Upload image</b></p>
+    <div class="mb-3">
+      <input type="file" class="form-control-file" (change)="onFileSelected($event)" accept=".png,.JPEG">
+    </div>
+    <button type="button" class="btn btn-primary" (click)="onUpload()">Upload</button>
+  </form>
+</div>

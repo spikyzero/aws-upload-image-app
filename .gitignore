@@ -1,4 +1,5 @@
 target/
+.mvn/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
@@ -121,7 +122,6 @@ dist
 *.log.*
 *.sig
 pkg/
-src/
 .DS_Store
 .AppleDouble
 .LSOverride
@@ -156,3 +156,4 @@ typings/
 e2e/*.js
 e2e/*.map
 .DS_Store/
+*/application-prod.properties

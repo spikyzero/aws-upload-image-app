@@ -1,0 +1,21 @@
+<div class="search-images-wrapper">
+  <div class="form-wrapper">
+    <p><b>Find images by related tag</b></p>
+    <div class="mb-3">
+      <input type="text" class="form-control" placeholder="Enter tag" [(ngModel)]="tag">
+    </div>
+    <button type="button" class="btn btn-primary" (click)="searchImages()">Search</button>
+  </div>
+</div>
+
+<div class="images-wrapper row">
+  <div *ngFor="let base64Image of base64Images" class="image-wrapper">
+    <img [src]="getBase64Images(base64Image)" alt="Image">
+  </div>
+</div>
+
+<div class="text-wrapper">
+  <div *ngIf="isEmpty" class="text">
+    <p class="text-info">No images found for the provided tag.</p>
+  </div>
+</div>
