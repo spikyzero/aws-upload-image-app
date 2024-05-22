@@ -35,3 +35,7 @@ The main application point is uploading image to AWS S3 Bucket, after using AWS 
 # MySQL M:M relation results
 
 <img width="696" alt="image" src="https://github.com/spikyzero/aws-upload-image-app/assets/57000663/2bea8128-df38-4a4e-b0e9-40c7b535a558">
+
+# S3 bucket demonstration
+
+<img width="1115" alt="image" src="https://github.com/spikyzero/aws-upload-image-app/assets/57000663/21c9293e-4c2b-4f5b-aa1d-feef3b750787">
