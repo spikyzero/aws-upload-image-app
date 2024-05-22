@@ -10,7 +10,7 @@ Angular: 17.3.0
 
 # Summary
 
-The main application point is uploading image to AWS S3 Bucket, after using AWS Rekognition Service recognize object labels which appeared at image, and save meta data to DB, to use it with next requests from front-end
+The main application point is uploading image to AWS S3 Bucket, after using AWS Rekognition Service to recognize object labels which appeared at image, and save metadata in DB, to use it in next requests from front-end
 
 # Home display page
 
