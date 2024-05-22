@@ -23,11 +23,6 @@ public class FileController {
         this.fileService = fileService;
     }
 
-    @GetMapping("/")
-    public String getPage() {
-        return "Hello World";
-    }
-
     @PostMapping("/save")
     public void uploadFile(@RequestParam("file") MultipartFile file) throws IOException {
         if (file.isEmpty()) {
